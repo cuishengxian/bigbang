@@ -1,0 +1,36 @@
+ 
+cuishengxian respect 崔胜贤 … 
+Latest commit cad937c 3 minutes ago 
+ 
+README.md 
+Initial commit 
+7 days ago 
+ 
+T.O.P 
+respect 崔胜贤 
+3 minutes ago 
+ 
+test.txt 
+新建文档 
+5 minutes ago 
+ 
+wakkaka.txt 
+新建文本TXT 
+6 days ago 
+
+ README.md 
+bigbang
+This is my first repository.
+? 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+ 
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
