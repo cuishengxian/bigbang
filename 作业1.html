@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>student</title>
+    <style>
+        legend {
+            color: red;
+            font-size: 20px;
+        }
+        
+        fieldset {
+            width: 450px;
+            height: 600px;
+            border: 1.5px solid black;
+        }
+        
+        form {
+            width: 450px;
+            height: 600px;
+        }
+        
+        p {
+            width: 400px;
+            height: 20px;
+            float: left;
+            margin-left: 10px;
+            margin-bottom: 5px;
+            margin-top: 10px;
+        }
+        
+        input {
+            width: 400px;
+            height: 30px;
+            float: left;
+            margin-left: 10px;
+        }
+        
+        span {
+            color: red;
+            width: 30px;
+            height: 30px;
+            float: left;
+            margin-left: 3px;
+            margin-top: 5px;
+        }
+        
+        #tijiao {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>学生信息</h1>
+    </header>
+    <fieldset>
+        <legend>学生档案</legend>
+        <form>
+            <p>姓名:</p>
+            <input type="text" name="demoname" placeholder="请输入姓名" required/>
+            <span>*</span>
+            <p>学号:</p>
+            <input type="number" name="demono" placeholder="请输入学号" required/>
+            <span>*</span>
+            <p>手机号码:</p>
+            <input type="tel" name="demotel" placeholder="输入手机号" required/>
+            <span>*</span>
+            <p>邮箱地址:</p>
+            <input type="email" name="demoemail" placeholder="请输入邮箱地址" required/>
+            <span>*</span>
+            <p>录取学校:</p>
+            <input type="search" name="demoschool" autocomplete="on" list="names" />
+            <datalist id="names">
+	            <option>河北师范大学</option>
+	            <option>清华大学</option>
+	            <option>北京大学</option>
+                <option>家里蹲大学</option>
+                <option>窝里干大学</option>
+        </datalist>
+            <p>入学成绩:</p>
+            <input type="number" name="demonum" min="0" max="750" />
+            <p>入学时间:</p>
+            <input type="date" name="demodate" value="年/月/日" />
+            <input id="tijiao" type="submit" value="提交">
+        </form>
+    </fieldset>
+</body>
